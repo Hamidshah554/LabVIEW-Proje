@@ -1,9 +1,10 @@
 # Bitki Sulanma Sistemi
 
-Bu proje, uzakta tutulan ve genellikle ulaşılamayan bitkilerin sulanması için geliştirilmiştir, Amin amacı, evde kimse yokken özel olarak nemi kontrol etmektir. Plnt vazo nemi 3 farklı renk Led ile gösterilebilir. Su seviyeleri;
-1) Kuru veya daha az nem.(LED 1)
-2) Orta nem.(LED 2)
-3) Yüksek nem.(LED 3)
+Bu proje, uzakta tutulan ve genellikle ulaşılamayan sulama tesisi için geliştirilmiştir. Amaç, evde kimse yokken özel olarak nemi kontrol etmektir. Bitki toprağının nemi 3 farklı Led rengi ile gösterilebilir.
+Su seviyeleri;
+1)Kuru veya daha az nem.(LED 1)
+2)Orta nem.(LED 2)
+3)Yüksek nem.(LED 3)
 
 Konular Tablosu
 -----------------
@@ -16,8 +17,7 @@ Konular Tablosu
 Hakkinda
 ------------
 
-Küçük su pompası motoru yardımıyla otomatik olarak su dökülürken de kontrol edilebilir; bu durumda vazo içindeki toprağın nem seviyesi düşer ve LED 1 yanar duruma geçer; Opsiyonel olan ve bağlantı devresi burada gösterilmeyen bir motor sürücüsü (L298N) yardımı ile motor buna göre tetiklenebilir.
-LED 2'yi "orta nem" düzeyine getirin ve LED3 yanana kadar açık durumda olacaktır. LED3, Yüksek nem seviyesini gösterir ve motor hemen kapalı duruma geçmelidir, bu yine motor sürücüsü yardımıyla yapılabilir.
+Ayrıca küçük su pompalama motoru yardımıyla suyu otomatik olarak dökerken kontrol edilebilir; bu durumda vazo içindeki toprağın nem seviyesi düşerse ve LED 1 yanıyorsa; motor, isteğe bağlı olan ve bağlantı devresi burada gösterilmeyen bir motor sürücüsü (L298N) yardımıyla çalıştırılabilir. "Orta nem seviyesine" (LED 2) geldikten sonra ve LED3 yanana kadar aktif durumda olacaktır. LED3, Yüksek nem seviyesini gösterir ve motor hemen kapalı duruma geçmelidir, bu yine motor sürücüsü yardımıyla yapılabilir. LED2, bitkinin sulanmaması için gecikme seviyesi olarak programlanabilen Orta nem seviyesidir.
 
 LabView Devre Semasi
 ------------
